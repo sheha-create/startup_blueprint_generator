@@ -1,0 +1,138 @@
+[
+  {
+    "id": "scheme_001",
+    "name": "Startup India Seed Fund Scheme (SISFS)",
+    "provider": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "description": "Provides financial assistance to startups for proof of concept, prototype development, product trials, market entry, and commercialization. Grants up to INR 20 lakhs for validation and up to INR 50 lakhs as soft loans.",
+    "eligibility": [
+      "DPIIT-recognized startup",
+      "Incorporated not more than 2 years ago at time of application",
+      "Must not have received more than INR 10 lakh of monetary support under any other Central or State Government scheme"
+    ],
+    "sectors": ["technology", "agritech", "healthtech", "edtech", "fintech", "cleantech", "manufacturing", "retail", "logistics"],
+    "stage": ["idea", "validation", "early"],
+    "funding_amount": "Up to INR 50 lakhs (soft loan) + INR 20 lakhs (grant)",
+    "region": "India",
+    "source": "https://seedfund.startupindia.gov.in/",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_002",
+    "name": "MSME Technology Upgradation Fund Scheme (TUFS)",
+    "provider": "Ministry of Micro, Small and Medium Enterprises",
+    "description": "Provides 15% capital subsidy on institutional finance for purchase of plant and machinery for technology upgradation in specified sectors. Credit linked subsidy for MSMEs.",
+    "eligibility": [
+      "Registered MSME",
+      "Manufacturing or service enterprise",
+      "Plant & machinery investment below INR 50 crore"
+    ],
+    "sectors": ["manufacturing", "textiles", "food processing", "chemicals", "engineering"],
+    "stage": ["early", "growth"],
+    "funding_amount": "15% capital subsidy, up to INR 15 lakhs per unit",
+    "region": "India",
+    "source": "https://msme.gov.in/",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_003",
+    "name": "Atal Innovation Mission (AIM) — Tinkering Labs & Incubation",
+    "provider": "NITI Aayog",
+    "description": "Establishes Atal Incubation Centres (AICs) to provide incubation facilities. Grant of up to INR 10 crore over 5 years to selected incubation centres. Startups housed in AICs get mentoring, lab access, and networking.",
+    "eligibility": [
+      "Early-stage Indian startup",
+      "Innovation-focused product/service",
+      "Willingness to be based at an AIC"
+    ],
+    "sectors": ["technology", "deeptech", "biotech", "cleantech", "agritech", "social impact"],
+    "stage": ["idea", "validation", "early"],
+    "funding_amount": "Non-dilutive incubation support + access to INR 10 crore AIC grant ecosystem",
+    "region": "India",
+    "source": "https://aim.gov.in/",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_004",
+    "name": "SIDBI SMILE Fund",
+    "provider": "Small Industries Development Bank of India (SIDBI)",
+    "description": "Provides soft loans and quasi-equity to MSMEs and early-stage startups that are commercially viable but lack collateral. Focus on job creation and inclusive growth sectors.",
+    "eligibility": [
+      "MSME or startup with at least 1 year of operations",
+      "Viable business model",
+      "Sector agnostic but priority to manufacturing and services"
+    ],
+    "sectors": ["manufacturing", "services", "retail", "logistics", "technology"],
+    "stage": ["early", "growth"],
+    "funding_amount": "INR 10 lakhs to INR 25 lakhs (soft loan at concessional rates)",
+    "region": "India",
+    "source": "https://www.sidbi.in/",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_005",
+    "name": "Digital India Startup Hub",
+    "provider": "Ministry of Electronics and Information Technology (MeitY)",
+    "description": "Connects tech startups with mentors, incubators, investors, and government procurement opportunities. Provides access to MeitY-empaneled incubators and pilot project grants for deep-tech.",
+    "eligibility": [
+      "Technology-focused startup",
+      "DPIIT recognition preferred",
+      "Product or platform with digital/software component"
+    ],
+    "sectors": ["technology", "AI/ML", "cybersecurity", "IoT", "blockchain", "SaaS", "edtech", "healthtech"],
+    "stage": ["idea", "validation", "early", "growth"],
+    "funding_amount": "Pilot grants up to INR 1 crore + incubation support",
+    "region": "India",
+    "source": "https://www.meity.gov.in/",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_006",
+    "name": "National SC-ST Hub",
+    "provider": "Ministry of Micro, Small and Medium Enterprises",
+    "description": "Promotes entrepreneurship among SC/ST communities. Provides handholding support, skill development, financial assistance, and access to government procurement for SC/ST-owned enterprises.",
+    "eligibility": [
+      "SC/ST entrepreneur or business owner",
+      "MSME registration",
+      "Desire to participate in government procurement (GeM portal)"
+    ],
+    "sectors": ["all sectors"],
+    "stage": ["idea", "early", "growth"],
+    "funding_amount": "Varies — mentoring, skill grants, procurement facilitation",
+    "region": "India",
+    "source": "https://www.nssh.gov.in/",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_007",
+    "name": "Production Linked Incentive (PLI) Scheme",
+    "provider": "Ministry of Commerce and Industry",
+    "description": "Incentivizes domestic manufacturing by providing production-linked financial incentives over 4–6 years. Active in 14 sectors including electronics, pharma, food processing, and textiles.",
+    "eligibility": [
+      "Manufacturer in eligible sectors",
+      "Minimum investment threshold (varies by sector)",
+      "Committed production targets"
+    ],
+    "sectors": ["electronics", "pharmaceuticals", "food processing", "textiles", "automobile", "specialty steel", "solar PV", "telecom"],
+    "stage": ["growth", "scale"],
+    "funding_amount": "4–6% of incremental sales above base year for 4–6 years",
+    "region": "India",
+    "source": "https://www.investindia.gov.in/pli",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "id": "scheme_008",
+    "name": "iCreate — International Centre for Entrepreneurship and Technology",
+    "provider": "Government of Gujarat / GOI supported",
+    "description": "India's premier startup incubator offering funded residency programs, mentoring, and investor connects. Hosts Indian and international startups across deep-tech, clean-energy, and advanced manufacturing.",
+    "eligibility": [
+      "Early to growth stage startup",
+      "Technology or innovation focus",
+      "Open to Indian and foreign startups"
+    ],
+    "sectors": ["deeptech", "cleantech", "advanced manufacturing", "AI", "IoT", "robotics"],
+    "stage": ["early", "growth"],
+    "funding_amount": "Funded residency + access to INR 50 lakh seed fund for selected startups",
+    "region": "India (Gujarat based)",
+    "source": "https://icreate.org.in/",
+    "last_updated": "2024-01-15"
+  }
+]

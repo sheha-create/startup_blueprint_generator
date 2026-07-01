@@ -1,0 +1,86 @@
+[
+  {
+    "id": "inv_001",
+    "name": "Sequoia Capital India (Peak XV Partners)",
+    "type": "Venture Capital",
+    "focus_sectors": ["technology", "SaaS", "fintech", "consumer", "healthtech", "edtech", "deeptech"],
+    "stages": ["seed", "early", "growth", "Series A", "Series B+"],
+    "ticket_size": "USD 100K (Surge) to USD 50M+",
+    "description": "India's leading VC fund. Surge program specifically targets early-stage Indian and Southeast Asian startups with $1–$2M checks and an intensive accelerator program.",
+    "portfolio_examples": ["BYJU'S", "Zomato", "OYO", "Freshworks", "Meesho"],
+    "hq": "Bengaluru, India",
+    "application": "https://www.peakxv.com/"
+  },
+  {
+    "id": "inv_002",
+    "name": "Blume Ventures",
+    "type": "Venture Capital",
+    "focus_sectors": ["SaaS", "fintech", "B2B tech", "consumer tech", "deeptech", "agritech"],
+    "stages": ["pre-seed", "seed", "Series A"],
+    "ticket_size": "USD 250K to USD 3M",
+    "description": "Early-stage India-focused VC with a strong track record in B2B SaaS and consumer tech. Known for founder-friendly terms and deep local network.",
+    "portfolio_examples": ["Purplle", "Unacademy", "Dunzo", "HealthifyMe"],
+    "hq": "Mumbai / Bengaluru, India",
+    "application": "https://blume.vc/"
+  },
+  {
+    "id": "inv_003",
+    "name": "Y Combinator",
+    "type": "Accelerator",
+    "focus_sectors": ["all sectors — technology preferred", "SaaS", "marketplace", "AI/ML", "biotech", "fintech"],
+    "stages": ["idea", "pre-seed", "seed"],
+    "ticket_size": "USD 500K for 7% equity (standard deal)",
+    "description": "World's top startup accelerator. 3-month program in Silicon Valley with intense mentorship, demo day access to 1000+ investors, and a powerful global alumni network. Accepts Indian startups.",
+    "portfolio_examples": ["Airbnb", "Stripe", "Razorpay", "ClearTax", "Meesho"],
+    "hq": "San Francisco, USA",
+    "application": "https://www.ycombinator.com/apply"
+  },
+  {
+    "id": "inv_004",
+    "name": "Indian Angel Network (IAN)",
+    "type": "Angel Network",
+    "focus_sectors": ["technology", "healthtech", "edtech", "agritech", "fintech", "consumer", "B2B SaaS"],
+    "stages": ["idea", "pre-seed", "seed"],
+    "ticket_size": "INR 25 lakhs to INR 10 crore",
+    "description": "India's largest angel network with 500+ investors. Focuses on early-stage Indian startups. Also runs IAN Fund (institutional). Particularly strong in helping first-time founders with mentoring.",
+    "portfolio_examples": ["Druva", "Box8", "Sapience Analytics", "i2e1"],
+    "hq": "New Delhi, India",
+    "application": "https://www.indianangelnetwork.com/"
+  },
+  {
+    "id": "inv_005",
+    "name": "Nasscom 10,000 Startups",
+    "type": "Incubator / Accelerator Program",
+    "focus_sectors": ["technology", "SaaS", "AI/ML", "IoT", "cybersecurity", "deeptech", "enterprise tech"],
+    "stages": ["idea", "validation", "early"],
+    "ticket_size": "Non-dilutive support + investor connects",
+    "description": "India's largest tech startup ecosystem initiative by Nasscom. Provides co-working, mentoring, investor access, go-to-market support, and visibility at flagship events like NASSCOM Product Conclave.",
+    "portfolio_examples": ["1000+ startups incubated across India"],
+    "hq": "Pan-India (multiple hubs)",
+    "application": "https://10000startups.com/"
+  },
+  {
+    "id": "inv_006",
+    "name": "Accel India",
+    "type": "Venture Capital",
+    "focus_sectors": ["SaaS", "consumer tech", "fintech", "edtech", "B2B", "marketplace"],
+    "stages": ["seed", "Series A", "Series B"],
+    "ticket_size": "USD 500K to USD 15M",
+    "description": "One of India's most active early-stage VCs. Known for backing category-creating companies. Has a dedicated seed program called Accel Atoms for very early stage.",
+    "portfolio_examples": ["Flipkart", "Swiggy", "BrowserStack", "Chargebee", "Quizizz"],
+    "hq": "Bengaluru, India",
+    "application": "https://www.accel.com/locations/india"
+  },
+  {
+    "id": "inv_007",
+    "name": "Founder Institute India",
+    "type": "Pre-Seed Accelerator",
+    "focus_sectors": ["all sectors — especially technology, SaaS, marketplace"],
+    "stages": ["idea", "pre-seed"],
+    "ticket_size": "Equity-free program (small equity pool formed from alumni)",
+    "description": "World's largest pre-seed startup accelerator with strong India chapters (Bengaluru, Hyderabad, Mumbai). Ideal for idea-stage founders who need structured mentorship to get investor-ready.",
+    "portfolio_examples": ["1800+ companies across India chapters"],
+    "hq": "Global (Silicon Valley HQ)",
+    "application": "https://fi.co/join"
+  }
+]
