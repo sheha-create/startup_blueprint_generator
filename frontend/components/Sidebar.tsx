@@ -104,8 +104,20 @@ export default function Sidebar({ blueprint, activeTab, onTabChange }: Props) {
           </div>
         )}
 
-        <p className="text-[9px] text-slate-600 text-center mt-3">
-          Powered by Groq · Llama 3.3 70B
+        {/* IBM watsonx badge */}
+        <div className="mt-3 rounded-xl border border-sidebar-border bg-white/5 px-3 py-2.5 flex items-center gap-2">
+          <div className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-md bg-blue-600">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="white">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+            </svg>
+          </div>
+          <div className="min-w-0">
+            <p className="text-[9px] font-bold text-blue-400 uppercase tracking-wide">IBM watsonx.ai</p>
+            <p className="text-[9px] text-slate-500 truncate">RAG Embeddings</p>
+          </div>
+        </div>
+        <p className="text-[9px] text-slate-600 text-center mt-2">
+          LLM · Groq Llama 3.3 70B
         </p>
       </div>
     </aside>

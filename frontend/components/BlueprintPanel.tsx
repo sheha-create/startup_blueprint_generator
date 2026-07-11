@@ -590,7 +590,11 @@ function SourcesSection({ blueprint }: { blueprint: Blueprint }) {
       </SCard>
       <div className="text-center py-4">
         <p className="text-xs text-slate-400">
-          Knowledge base last curated: Jan–Mar 2024 · Powered by Groq Llama 3.3 70B + FAISS RAG
+          Knowledge base last curated: Jan–Mar 2024
+        </p>
+        <p className="text-xs text-slate-400 mt-1">
+          Embeddings: <span className="font-semibold text-blue-500">IBM watsonx.ai</span> (slate-125m-english-rtrvr) ·
+          Vector DB: FAISS · LLM: Groq Llama 3.3 70B
         </p>
       </div>
     </div>

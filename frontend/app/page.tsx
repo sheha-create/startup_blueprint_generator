@@ -119,12 +119,21 @@ export default function Home() {
                 {blueprint ? 'Follow-up Chat' : 'New Blueprint'}
               </span>
             </div>
-            {blueprint && (
-              <div className="flex items-center gap-1.5">
-                <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                <span className="text-xs font-medium text-emerald-600">Live</span>
+            <div className="flex items-center gap-3">
+                {blueprint && (
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="text-xs font-medium text-emerald-600">Live</span>
+                  </div>
+                )}
+                <span className="text-[10px] text-slate-400 hidden sm:flex items-center gap-1">
+                  <span className="font-semibold text-blue-500">IBM watsonx.ai</span>
+                  <span className="text-slate-300">·</span>
+                  <span>FAISS RAG</span>
+                  <span className="text-slate-300">·</span>
+                  <span>Groq LLM</span>
+                </span>
               </div>
-            )}
           </div>
 
           <ChatPanel

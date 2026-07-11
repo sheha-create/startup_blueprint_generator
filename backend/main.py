@@ -1,18 +1,26 @@
 """
 FastAPI application — main entrypoints.
+
+Stack:
+  Embeddings : IBM watsonx.ai  ibm/slate-125m-english-rtrvr
+               (auto-fallback to local all-MiniLM-L6-v2 when key is absent)
+  LLM        : Groq  llama-3.3-70b-versatile
+  Vector DB  : FAISS in-memory IndexFlatIP
 """
 from __future__ import annotations
 
+import os
 import uuid
 from typing import Any, Dict, Optional
 
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import Response, JSONResponse
+from fastapi.responses import Response
 from pydantic import BaseModel
 
 from agents.blueprint_gen import generate_blueprint, generate_followup_answer
 from rag.vector_store import get_store
+from rag.embedder import get_embedding_provider
 
 # ---------------------------------------------------------------------------
 # App setup
@@ -20,7 +28,10 @@ from rag.vector_store import get_store
 app = FastAPI(
     title="Startup Blueprint Generator API",
     version="1.0.0",
-    description="Converts a plain-language startup idea into a structured blueprint using IBM Granite RAG.",
+    description=(
+        "Converts a plain-language startup idea into a structured blueprint. "
+        "Embeddings powered by IBM watsonx.ai; generation by Groq Llama 3.3 70B."
+    ),
 )
 
 app.add_middleware(
@@ -68,7 +79,14 @@ class ExportRequest(BaseModel):
 # ---------------------------------------------------------------------------
 @app.get("/health")
 async def health():
-    return {"status": "ok", "service": "Startup Blueprint Generator"}
+    return {
+        "status": "ok",
+        "service": "Startup Blueprint Generator",
+        "embedding_provider": get_embedding_provider(),
+        "llm_provider": "Groq llama-3.3-70b-versatile",
+        "watsonx_configured": bool(os.getenv("WATSONX_API_KEY", "").strip()),
+        "groq_configured": bool(os.getenv("GROQ_API_KEY", "").strip()),
+    }
 
 
 @app.post("/api/generate")
